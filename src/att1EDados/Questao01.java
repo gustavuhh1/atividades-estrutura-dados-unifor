@@ -1,4 +1,4 @@
-package att;
+package att1EDados;
 
 public class Questao01 {
     // Criando e preenchendo o vetor

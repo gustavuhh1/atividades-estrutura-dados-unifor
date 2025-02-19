@@ -1,4 +1,4 @@
-package att;
+package att1EDados;
 
 public class Questao02 {
     public static void retornaMatriz() {

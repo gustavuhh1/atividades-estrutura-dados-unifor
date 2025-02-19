@@ -1,5 +1,5 @@
-import att.Questao01;
-import att.Questao02;
+import att1EDados.Questao01;
+import att1EDados.Questao02;
 
 public class Main {
     public static void main(String[] args) {
