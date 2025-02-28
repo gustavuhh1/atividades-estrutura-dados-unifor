@@ -11,6 +11,7 @@ public class Main {
         lista.adicionar(12, 5);
 
         lista.exibir();
+        lista.alterar(6,2);
         lista.pegaNo(2);
 
     }

@@ -54,6 +54,26 @@ public class ListaSE {
         }
     }
 
+    public void alterar(int dado, int posicao) {
+        No novoNo = new No(dado);
+        if (cabeca == null) {
+            cabeca = novoNo;
+            quantidade++;
+            System.out.println("Nova Cabeça: " + cabeca.elemento);
+        }
+        No atual = cabeca;
+        int count = 1;
+        while (atual.proximo != null) {
+            atual = atual.proximo;
+            if(count == posicao){
+                novoNo.proximo = atual.proximo;
+                atual = null;
+
+            }
+            count++;
+        }
+    }
+
     public void remover(int dado) {
         if (cabeca == null) {
             System.out.println("Lista vazia!");
